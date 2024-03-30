@@ -13,6 +13,5 @@ def missing_number(n, lista):
 
 # Caso de prueba
 assert missing_number(9, [1, 2, 3, 4, 5, 6, 7, 9]) == 8, "Error en la suma de la secuencia"
-print("Secuencia correcta")
 
-print(missing_number(7, [1, 2, 3, 4, 6, 7]))
+#print(missing_number(7, [1, 2, 3, 4, 6, 7]))

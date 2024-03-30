@@ -18,6 +18,5 @@ def weird_algorithm (n):
 
 # Caso de prueba
 assert weird_algorithm(3) == [3, 10, 5, 16, 8, 4, 2, 1], "Secuencia incorrecta"
-print("Secuencia correcta")
 
-print(weird_algorithm(n))
+#print(weird_algorithm(n))
