@@ -12,6 +12,5 @@ def missing_number(n, lista):
     return suma_total - suma_lista # Retornamos la suma total de la secuencia menos la suma de la lista
 
 # Caso de prueba
-assert missing_number(9, [1, 2, 3, 4, 5, 6, 7, 9]) == 8, "Error en la suma de la secuencia"
-
-#print(missing_number(7, [1, 2, 3, 4, 6, 7]))
+assert missing_number(5, [1, 2, 4, 5 ]) == 3, "Error en el caso de prueba"
+print("Todos los casos de prueba han pasado correctamente")

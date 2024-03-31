@@ -27,5 +27,5 @@ def number_spiral(row, column):
 
             return column ** 2 - (row - 1) # Calculamos el valor como el cuadrado de la columna menos el número de filas menos 1.
 
-assert number_spiral(2, 2) == 3, "Error en la suma de la secuencia"
-#print(number_spiral(4, 3))
+assert number_spiral(2, 2) == 3, "Error en el caso de prueba"
+print("Todos los casos de prueba han pasado correctamente")

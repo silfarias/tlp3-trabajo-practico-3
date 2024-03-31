@@ -30,4 +30,4 @@ def palindrome_reorder(s):
     return palindrome + mitad + palindrome[::-1]
 
 assert palindrome_reorder("aabbc") == "abcba", "Error en el caso de prueba"
-# print(palindrome_reorder("aabbc"))
+print("Todos los casos de prueba han pasado correctamente")
