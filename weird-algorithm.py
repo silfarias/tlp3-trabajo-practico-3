@@ -1,7 +1,5 @@
 # Weird Algorithm
 
-n = int(input("Ingrese un número: "))
-
 def weird_algorithm (n):
 
     secuencia = [n] # Inicializamos la secuencia
